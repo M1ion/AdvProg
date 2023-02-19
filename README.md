@@ -42,7 +42,8 @@
 
   Plot of the training and validation accuracy and loss:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.002.jpeg)Testing the model on a few individual images, and the model was able to correctly classify the images with the confidence score of 1.00:
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.002.jpeg)
+  Testing the model on a few individual images, and the model was able to correctly classify the images with the confidence score of 1.00:
 
   ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.003.png)![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.004.png)
 
@@ -71,6 +72,6 @@
   In this project, VGG16 was used as a pre-trained model for image classification of 30 different sports balls types. Also used data augmentation techniques such as rotation, zooming and flipping to increase the diversity of the dataset. After training the model, I achieved a validation accuracy of 91.33% and a test accuracy of 90%. This model was able to correctly classify new, unseen images with a high degree of accuracy, indicating that the model was able to generalize well to new data. Overall, the use of pre-trained models such as VGG16 can greatly improve the accuracy of image classification tasks, while also reducing the amount of time needed for training.
 
 - **Sources:**
-- [https://towardsdatascience.com/a-demonstration-of-transfer-lea rning-of-vgg-convolutional-neural-network-pre-trained-model-wit h-c9f5b8b1ab0a](https://towardsdatascience.com/a-demonstration-of-transfer-learning-of-vgg-convolutional-neural-network-pre-trained-model-with-c9f5b8b1ab0a)
-- <https://keras.io/api/applications/vgg/>
-- [https://www.kaggle.com/code/swetash/ball-classification-from-s cratch-95-acc](https://www.kaggle.com/code/swetash/ball-classification-from-scratch-95-acc)
+  - [https://towardsdatascience.com/a-demonstration-of-transfer-lea rning-of-vgg-convolutional-neural-network-pre-trained-model-wit h-c9f5b8b1ab0a](https://towardsdatascience.com/a-demonstration-of-transfer-learning-of-vgg-convolutional-neural-network-pre-trained-model-with-c9f5b8b1ab0a)
+  - <https://keras.io/api/applications/vgg/>
+  - [https://www.kaggle.com/code/swetash/ball-classification-from-s cratch-95-acc](https://www.kaggle.com/code/swetash/ball-classification-from-scratch-95-acc)

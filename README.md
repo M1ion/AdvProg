@@ -38,14 +38,19 @@
 
   After training the model for 10 epochs, we achieved accuracy of 96.04%, validation accuracy of 91.33% and a test accuracy of 90%, indicating that the model was able to generalize well to new, unseen images:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.001.jpeg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/001.jpg)
 
   Plot of the training and validation accuracy and loss:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.002.jpeg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/002.jpg)
   Testing the model on a few individual images, and the model was able to correctly classify the images with the confidence score of 1.00:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.003.png)![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.004.png)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/003.1.jpg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/003.2.jpg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/003.3.jpg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/003.4.jpg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/003.5.jpg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/003.6.jpg)
 
 - **Discussion**
 
@@ -53,15 +58,15 @@
 
   The VGG16 model performed much better than a simple CNN model:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.005.png)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/004.png)
 
   While the CNN model took over 30 minutes to train and only achieved a test accuracy of 65%:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.006.jpeg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/005.jpeg)
 
   The VGG16 model took less than 10 minutes to train and achieved a test accuracy of 90%:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/Aspose.Words.5a45df3d-d910-4834-b2e7-b3342c827cbe.007.jpeg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/001.jpeg)
 
   I also tried to use other pre-trained models, such as ResNet50, VGG19, instead of VGG16, but with ResNet50 I got the accuracy of 25%, and with VGG19 the accuracy of 88%. Although the performance was on the same level. Therefore, I settled on VGG16.
 

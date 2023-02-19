@@ -43,6 +43,7 @@
   Plot of the training and validation accuracy and loss:
 
   ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/002.jpg)
+  
   Testing the model on a few individual images, and the model was able to correctly classify the images with the confidence score of 1.00:
 
   ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/003.1.jpg)
@@ -58,15 +59,15 @@
 
   The VGG16 model performed much better than a simple CNN model:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/004.png)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/004.jpg)
 
   While the CNN model took over 30 minutes to train and only achieved a test accuracy of 65%:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/005.jpeg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/005.jpg)
 
   The VGG16 model took less than 10 minutes to train and achieved a test accuracy of 90%:
 
-  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/001.jpeg)
+  ![](https://github.com/M1ion/AdvProg/blob/main/photos%20in%20readme/001.jpg)
 
   I also tried to use other pre-trained models, such as ResNet50, VGG19, instead of VGG16, but with ResNet50 I got the accuracy of 25%, and with VGG19 the accuracy of 88%. Although the performance was on the same level. Therefore, I settled on VGG16.
 
